@@ -4,4 +4,7 @@
 ///字符串常量
 class StringConst {
   static const String APP_NAME = "设计模式";
+
+  ///工厂模式
+  static const String FACTORY_ = "工厂模式";
 }

@@ -1,7 +1,8 @@
-import 'dart:collection';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_design/constant/string_const.dart';
+
+import '../constant/page_const.dart';
+import '../constant/string_const.dart';
 
 /// Created by NieBin on 2020-03-16
 /// Github: https://github.com/nb312
@@ -13,7 +14,7 @@ class HomePage extends StatefulWidget {
 }
 
 //参考链接
-Map<String, String> map = {"page": "content"};
+Map<String, String> map = {PageConst.FACTORY_PAGE: StringConst.FACTORY_};
 
 class _HomePageState extends State<HomePage> {
   @override
