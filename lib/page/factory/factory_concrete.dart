@@ -6,8 +6,9 @@ import 'package:flutter_design/page/factory/describe_text.dart';
 /// Email: niebin312@gmail.com
 enum P { Android, Ios, Web }
 
+//普通工厂写法
 class DesFactory {
- static IPlatformDescribeText createPlatformText(P p) {
+  static IPlatformDescribeText createPlatformText(P p) {
     switch (p) {
       case P.Android:
         return AndroidDescribeText();
