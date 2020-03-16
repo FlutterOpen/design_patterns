@@ -10,4 +10,8 @@ class StringConst {
 
   //单例模式
   static const String SINGLE_ = "单例模式";
+  //建造者模式
+  static const String BUILDER_ = "建造者模式";
+  //原型模式
+  static const String PROTOTYPE_ = "原型模式";
 }

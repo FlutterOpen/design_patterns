@@ -17,6 +17,8 @@ class HomePage extends StatefulWidget {
 Map<String, String> map = {
   PageConst.FACTORY_PAGE: StringConst.FACTORY_,
   PageConst.INSTANCE_PAGE: StringConst.SINGLE_,
+  PageConst.BUILD_PAGE: StringConst.BUILDER_,
+  PageConst.PROTOTYPE_PAGE: StringConst.PROTOTYPE_,
 };
 
 class _HomePageState extends State<HomePage> {
@@ -29,7 +31,6 @@ class _HomePageState extends State<HomePage> {
       String content = map[page];
       Widget w = _item(page: page, content: content);
       items.add(w);
-      items.add(_line());
     }
     return Scaffold(
       appBar: AppBar(
@@ -43,7 +44,6 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
-  Widget _line() => Divider(height: 1);
 
   Widget _item({String content, String page}) => Container(
         child: InkWell(
@@ -56,7 +56,7 @@ class _HomePageState extends State<HomePage> {
             child: Center(
               child: Text(
                 content,
-                style: TextStyle(fontWeight: FontWeight.bold),
+                style: TextStyle(fontWeight: FontWeight.bold,fontSize: 16),
               ),
             ),
           ),
