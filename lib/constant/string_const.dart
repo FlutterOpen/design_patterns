@@ -7,4 +7,7 @@ class StringConst {
 
   ///工厂模式
   static const String FACTORY_ = "工厂模式";
+
+  //单例模式
+  static const String SINGLE_ = "单例模式";
 }

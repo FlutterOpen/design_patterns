@@ -14,7 +14,10 @@ class HomePage extends StatefulWidget {
 }
 
 //参考链接
-Map<String, String> map = {PageConst.FACTORY_PAGE: StringConst.FACTORY_};
+Map<String, String> map = {
+  PageConst.FACTORY_PAGE: StringConst.FACTORY_,
+  PageConst.INSTANCE_PAGE: StringConst.SINGLE_,
+};
 
 class _HomePageState extends State<HomePage> {
   @override

@@ -4,6 +4,7 @@ import 'package:flutter_design/constant/string_const.dart';
 import 'constant/page_const.dart';
 import 'constant/string_const.dart';
 import 'page/_page.dart';
+
 ///{link https://www.runoob.com/design-pattern/design-pattern-tutorial.html}
 void main() => runApp(MyApp());
 
@@ -19,8 +20,8 @@ class MyApp extends StatelessWidget {
       home: HomePage(),
       routes: {
         PageConst.FACTORY_PAGE: (context) => FactoryPage(),
+        PageConst.INSTANCE_PAGE: (context) => SinglePage(),
       },
     );
   }
 }
-
