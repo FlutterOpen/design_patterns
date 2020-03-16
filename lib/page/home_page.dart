@@ -14,7 +14,10 @@ class HomePage extends StatefulWidget {
 }
 
 //参考链接
-Map<String, String> map = {PageConst.FACTORY_PAGE: StringConst.FACTORY_};
+Map<String, String> map = {
+  PageConst.FACTORY_PAGE: StringConst.FACTORY_,
+  PageConst.INSTANCE_PAGE: StringConst.SINGLE_,
+};
 
 class _HomePageState extends State<HomePage> {
   @override
@@ -34,6 +37,7 @@ class _HomePageState extends State<HomePage> {
       ),
       body: GridView.count(
         crossAxisCount: 2,
+        childAspectRatio: 2,
         children: items,
       ),
     );
@@ -47,8 +51,13 @@ class _HomePageState extends State<HomePage> {
             Navigator.of(context).pushNamed(page);
           },
           child: Card(
+            shadowColor: Colors.blue,
+            elevation: 10,
             child: Center(
-              child: Text(content),
+              child: Text(
+                content,
+                style: TextStyle(fontWeight: FontWeight.bold),
+              ),
             ),
           ),
         ),
