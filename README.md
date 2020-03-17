@@ -1,5 +1,5 @@
-# Flutter Design Patterns
-主要是利用Dart来实现各种设计模式，对设计模式的加深理解
+# Flutter 设计模式
+主要是利用Flutter来实现各种设计模式，对设计模式的加深理解
 
 # 已实现
 1. 工厂/抽象工厂模式
