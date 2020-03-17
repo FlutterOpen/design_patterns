@@ -44,19 +44,17 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
-
   Widget _item({String content, String page}) => Container(
         child: InkWell(
           onTap: () {
             Navigator.of(context).pushNamed(page);
           },
           child: Card(
-            shadowColor: Colors.blue,
             elevation: 10,
             child: Center(
               child: Text(
                 content,
-                style: TextStyle(fontWeight: FontWeight.bold,fontSize: 16),
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
               ),
             ),
           ),
