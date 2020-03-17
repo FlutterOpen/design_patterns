@@ -6,6 +6,7 @@ class PageConst {
   static const String FACTORY_PAGE = "/factory"; //工厂模式
   static const String INSTANCE_PAGE = "/instance"; //单例
   static const String BUILD_PAGE = "/build"; //建造者模式
+  static const String PROTOTYPE_PAGE = "/prototype"; //原型模式
   static const String ADAPTER_PAGE = "/adapter"; //适配器模式
   static const String BRIDGE_PAGE = "/bridge"; //桥接模式
   static const String FILTER_PAGE = "/filter"; //过滤器模式或标准模式

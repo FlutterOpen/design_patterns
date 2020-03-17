@@ -21,6 +21,8 @@ class MyApp extends StatelessWidget {
       routes: {
         PageConst.FACTORY_PAGE: (context) => FactoryPage(),
         PageConst.INSTANCE_PAGE: (context) => SinglePage(),
+        PageConst.BUILD_PAGE: (context) => BuilderPage(),
+        PageConst.PROTOTYPE_PAGE: (context) => PrototypePage(),
       },
     );
   }

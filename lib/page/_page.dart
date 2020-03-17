@@ -4,3 +4,5 @@
 export "factory/factory_page.dart";
 export 'home_page.dart';
 export 'single/single_page.dart';
+export 'builder/builder_page.dart';
+export 'prototype/prototype_page.dart';
