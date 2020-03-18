@@ -19,6 +19,7 @@ Map<String, String> map = {
   PageConst.INSTANCE_PAGE: StringConst.SINGLE_,
   PageConst.BUILD_PAGE: StringConst.BUILDER_,
   PageConst.PROTOTYPE_PAGE: StringConst.PROTOTYPE_,
+  PageConst.ADAPTER_PAGE: StringConst.ADAPTER_,
 };
 
 class _HomePageState extends State<HomePage> {

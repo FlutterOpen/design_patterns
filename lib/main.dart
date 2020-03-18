@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_design/constant/string_const.dart';
+import 'package:flutter_design/page/adapter/adapter_page.dart';
 
 import 'constant/page_const.dart';
 import 'constant/string_const.dart';
@@ -23,6 +24,7 @@ class MyApp extends StatelessWidget {
         PageConst.INSTANCE_PAGE: (context) => SinglePage(),
         PageConst.BUILD_PAGE: (context) => BuilderPage(),
         PageConst.PROTOTYPE_PAGE: (context) => PrototypePage(),
+        PageConst.ADAPTER_PAGE: (context) => AdapterPage(),
       },
     );
   }
