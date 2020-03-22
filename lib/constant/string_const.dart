@@ -22,4 +22,7 @@ class StringConst {
 
   //桥接模式
   static const String BRIDGE_ = "桥接模式";
+
+  //过滤器/标准模式
+  static const String FILTER_ = "过滤器/标准模式";
 }
