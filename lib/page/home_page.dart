@@ -22,6 +22,7 @@ Map<String, String> map = {
   PageConst.ADAPTER_PAGE: StringConst.ADAPTER_,
   PageConst.BRIDGE_PAGE: StringConst.BRIDGE_,
   PageConst.FILTER_PAGE: StringConst.FILTER_,
+  PageConst.COMPOSITE_PAGE: StringConst.COMBINATION_,
 };
 
 class _HomePageState extends State<HomePage> {

@@ -25,4 +25,7 @@ class StringConst {
 
   //过滤器/标准模式
   static const String FILTER_ = "过滤器/标准模式";
+
+  //组合模式
+  static const String COMBINATION_ = "组合模式";
 }

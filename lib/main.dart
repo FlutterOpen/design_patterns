@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_design/constant/string_const.dart';
 import 'package:flutter_design/page/adapter/adapter_page.dart';
 import 'package:flutter_design/page/bridge/bridge_page.dart';
+import 'package:flutter_design/page/combination/combination_page.dart';
 import 'package:flutter_design/page/filter/filter_page.dart';
 
 import 'constant/page_const.dart';
@@ -29,6 +30,7 @@ class MyApp extends StatelessWidget {
         PageConst.ADAPTER_PAGE: (context) => AdapterPage(),
         PageConst.BRIDGE_PAGE: (context) => BridgePage(),
         PageConst.FILTER_PAGE: (context) => FilterPage(),
+        PageConst.COMPOSITE_PAGE: (context) => CombinationPage(),
       },
     );
   }
