@@ -3,6 +3,7 @@ import 'package:flutter_design/constant/string_const.dart';
 import 'package:flutter_design/page/adapter/adapter_page.dart';
 import 'package:flutter_design/page/bridge/bridge_page.dart';
 import 'package:flutter_design/page/combination/combination_page.dart';
+import 'package:flutter_design/page/decorator/decorator_page.dart';
 import 'package:flutter_design/page/filter/filter_page.dart';
 
 import 'constant/page_const.dart';
@@ -31,6 +32,7 @@ class MyApp extends StatelessWidget {
         PageConst.BRIDGE_PAGE: (context) => BridgePage(),
         PageConst.FILTER_PAGE: (context) => FilterPage(),
         PageConst.COMPOSITE_PAGE: (context) => CombinationPage(),
+        PageConst.DECORATOR_PAGE: (context) => DecoratorPage(),
       },
     );
   }
