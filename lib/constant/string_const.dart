@@ -28,4 +28,7 @@ class StringConst {
 
   //组合模式
   static const String COMBINATION_ = "组合模式";
+
+  //装饰者模式
+  static const String DECORATOR_ = "装饰者模式";
 }
