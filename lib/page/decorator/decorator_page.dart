@@ -48,9 +48,10 @@ class _DecoratorPageState extends State<DecoratorPage> {
                     onPressed: () {
                       setState(() {
                         isBusinessEven = !isBusinessEven;
-                        Building building = BusinessBuilding(
-                            isBusinessEven ? RedPaint() : GreenPaint());
-                        businessStr = building.decorate();
+                        Paint p = isBusinessEven
+                            ? RedPaint(BusinessBuilding())
+                            : GreenPaint(BusinessBuilding());
+                        businessStr = p.decorate();
                       });
                     },
                     child: Text(
@@ -81,9 +82,10 @@ class _DecoratorPageState extends State<DecoratorPage> {
                     onPressed: () {
                       setState(() {
                         isPersonEven = !isPersonEven;
-                        Building building = PersonBuilding(
-                            isPersonEven ? RedPaint() : GreenPaint());
-                        personStr = building.decorate();
+                        Paint p = isPersonEven
+                            ? RedPaint(PersonBuilding())
+                            : GreenPaint(PersonBuilding());
+                        personStr = p.decorate();
                       });
                     },
                     child: Text(
