@@ -31,4 +31,7 @@ class StringConst {
 
   //装饰者模式
   static const String DECORATOR_ = "装饰者模式";
+
+  //外观模式
+  static const String FACADE_ = "外观模式";
 }
