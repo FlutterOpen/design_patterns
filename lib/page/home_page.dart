@@ -25,6 +25,7 @@ Map<String, String> map = {
   PageConst.COMPOSITE_PAGE: StringConst.COMBINATION_,
   PageConst.DECORATOR_PAGE: StringConst.DECORATOR_,
   PageConst.FACADE_PAGE: StringConst.FACADE_,
+  PageConst.FLYWEIGHT_PAGE: StringConst.FLYWEIGHT_,
 };
 
 class _HomePageState extends State<HomePage> {

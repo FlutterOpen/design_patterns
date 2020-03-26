@@ -6,6 +6,7 @@ import 'package:flutter_design/page/combination/combination_page.dart';
 import 'package:flutter_design/page/decorator/decorator_page.dart';
 import 'package:flutter_design/page/facade/facade_page.dart';
 import 'package:flutter_design/page/filter/filter_page.dart';
+import 'package:flutter_design/page/flyweight/flyweight_page.dart';
 
 import 'constant/page_const.dart';
 import 'constant/string_const.dart';
@@ -35,6 +36,7 @@ class MyApp extends StatelessWidget {
         PageConst.COMPOSITE_PAGE: (context) => CombinationPage(),
         PageConst.DECORATOR_PAGE: (context) => DecoratorPage(),
         PageConst.FACADE_PAGE: (context) => FacadePage(),
+        PageConst.FLYWEIGHT_PAGE: (context) => FlyweightPage(),
       },
     );
   }
