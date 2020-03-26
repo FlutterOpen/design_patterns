@@ -34,4 +34,7 @@ class StringConst {
 
   //外观模式
   static const String FACADE_ = "外观模式";
+
+  //享元模式
+  static const String FLYWEIGHT_ = "享元模式";
 }
