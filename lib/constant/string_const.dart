@@ -37,4 +37,7 @@ class StringConst {
 
   //享元模式
   static const String FLYWEIGHT_ = "享元模式";
+
+  //享元模式
+  static const String PROXY_ = "代理模式";
 }
