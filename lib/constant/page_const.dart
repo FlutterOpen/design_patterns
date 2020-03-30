@@ -18,7 +18,7 @@ class PageConst {
   static const String CHAIN_PAGE = "/chain"; //享元模式
   static const String COMMAND_PAGE = "/command"; //命令模式
   static const String INTERPRETER_PAGE = "/interpreter"; //解释器模式
-  static const String ITERATOR_PAGE = "/interpreter"; //解释器模式
+  static const String DUTY_PAGE = "/duty"; //责任链模式
   static const String MEDIATOR_PAGE = "/mediator"; //中介者模式
   static const String MEMENTO_PAGE = "/memento"; //备忘录模式
   static const String OBSERVER_PAGE = "/observer"; //观察者模式

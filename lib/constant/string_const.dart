@@ -40,4 +40,7 @@ class StringConst {
 
   //享元模式
   static const String PROXY_ = "代理模式";
+
+  //享元模式
+  static const String DUTY_ = "责任链模式";
 }

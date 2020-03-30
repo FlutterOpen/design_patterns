@@ -4,6 +4,7 @@ import 'package:flutter_design/page/adapter/adapter_page.dart';
 import 'package:flutter_design/page/bridge/bridge_page.dart';
 import 'package:flutter_design/page/combination/combination_page.dart';
 import 'package:flutter_design/page/decorator/decorator_page.dart';
+import 'package:flutter_design/page/duty/duty_page.dart';
 import 'package:flutter_design/page/facade/facade_page.dart';
 import 'package:flutter_design/page/filter/filter_page.dart';
 import 'package:flutter_design/page/flyweight/flyweight_page.dart';
@@ -39,6 +40,7 @@ class MyApp extends StatelessWidget {
         PageConst.FACADE_PAGE: (context) => FacadePage(),
         PageConst.FLYWEIGHT_PAGE: (context) => FlyweightPage(),
         PageConst.PROXY_PAGE: (context) => ProxyPage(),
+        PageConst.DUTY_PAGE: (context) => DutyPage(),
       },
     );
   }
