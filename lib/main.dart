@@ -3,6 +3,7 @@ import 'package:flutter_design/constant/string_const.dart';
 import 'package:flutter_design/page/adapter/adapter_page.dart';
 import 'package:flutter_design/page/bridge/bridge_page.dart';
 import 'package:flutter_design/page/combination/combination_page.dart';
+import 'package:flutter_design/page/command/command_page.dart';
 import 'package:flutter_design/page/decorator/decorator_page.dart';
 import 'package:flutter_design/page/duty/duty_page.dart';
 import 'package:flutter_design/page/facade/facade_page.dart';
@@ -41,6 +42,7 @@ class MyApp extends StatelessWidget {
         PageConst.FLYWEIGHT_PAGE: (context) => FlyweightPage(),
         PageConst.PROXY_PAGE: (context) => ProxyPage(),
         PageConst.DUTY_PAGE: (context) => DutyPage(),
+        PageConst.COMMAND_PAGE: (context) => CommandPage(),
       },
     );
   }
