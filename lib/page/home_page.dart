@@ -29,6 +29,7 @@ Map<String, String> map = {
   PageConst.PROXY_PAGE: StringConst.PROXY_,
   PageConst.DUTY_PAGE: StringConst.DUTY_,
   PageConst.COMMAND_PAGE: StringConst.COMMAND_,
+  PageConst.INTERPRETER_PAGE: StringConst.INTERPRETER_,
 };
 
 class _HomePageState extends State<HomePage> {
