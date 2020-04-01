@@ -45,5 +45,8 @@ class StringConst {
   static const String DUTY_ = "责任链模式";
 
   //命令模式
-  static const String COMMAND_ = "责任链模式";
+  static const String COMMAND_ = "命令模式";
+
+  //解释器模式
+  static const String INTERPRETER_ = "解释器模式";
 }
