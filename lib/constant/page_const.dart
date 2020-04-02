@@ -28,5 +28,6 @@ class PageConst {
   static const String TEMPLATE_PAGE = "/template"; //模版模式
   static const String VISITOR_PAGE = "/vistor"; //访问者模式
   static const String MVC_PAGE = "/mvc"; //mvc模式
+  static const String ITERATOR_PAGE = "/iterator"; //迭代器模式
   static const String BUSINESS_DELEGATE_PAGE = "/business/delegate"; //模式
 }

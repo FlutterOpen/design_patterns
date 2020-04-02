@@ -49,4 +49,7 @@ class StringConst {
 
   //解释器模式
   static const String INTERPRETER_ = "解释器模式";
+
+  //迭代器模式
+  static const String ITERATOR_ = "迭代器模式";
 }
