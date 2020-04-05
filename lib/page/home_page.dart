@@ -31,6 +31,7 @@ Map<String, String> map = {
   PageConst.COMMAND_PAGE: StringConst.COMMAND_,
   PageConst.INTERPRETER_PAGE: StringConst.INTERPRETER_,
   PageConst.ITERATOR_PAGE: StringConst.ITERATOR_,
+  PageConst.MEDIATOR_PAGE: StringConst.MID_,
 };
 
 class _HomePageState extends State<HomePage> {

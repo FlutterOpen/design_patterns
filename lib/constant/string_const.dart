@@ -52,4 +52,7 @@ class StringConst {
 
   //迭代器模式
   static const String ITERATOR_ = "迭代器模式";
+
+  //迭代器模式
+  static const String MID_ = "中介者模式";
 }
