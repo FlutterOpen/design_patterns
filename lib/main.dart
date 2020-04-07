@@ -11,6 +11,8 @@ import 'package:flutter_design/page/filter/filter_page.dart';
 import 'package:flutter_design/page/flyweight/flyweight_page.dart';
 import 'package:flutter_design/page/interpreter/intepreter_page.dart';
 import 'package:flutter_design/page/iterator/Iterator_page.dart';
+import 'package:flutter_design/page/memory/memory_page.dart';
+import 'package:flutter_design/page/midd/mid_page.dart';
 import 'package:flutter_design/page/proxy/proxy_page.dart';
 
 import 'constant/page_const.dart';
@@ -47,6 +49,8 @@ class MyApp extends StatelessWidget {
         PageConst.COMMAND_PAGE: (context) => CommandPage(),
         PageConst.INTERPRETER_PAGE: (context) => InterpreterPage(),
         PageConst.ITERATOR_PAGE: (context) => IteratorPage(),
+        PageConst.MEDIATOR_PAGE: (context) => MidPage(),
+        PageConst.MEMENTO_PAGE: (context) => MemoryPage(),
       },
     );
   }
