@@ -58,4 +58,6 @@ class StringConst {
 
   //备忘录模式
   static const String MEMORY_ = "备忘录模式";
+  //备忘录模式
+  static const String OBSERVER_ = "观察者模式";
 }
