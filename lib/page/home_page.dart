@@ -35,6 +35,7 @@ Map<String, String> map = {
   PageConst.MEMENTO_PAGE: StringConst.MEMORY_,
   PageConst.OBSERVER_PAGE: StringConst.OBSERVER_,
   PageConst.STATE_PAGE: StringConst.STATE_,
+  PageConst.STRATEGY_PAGE: StringConst.STRATEGY_,
 };
 
 class _HomePageState extends State<HomePage> {

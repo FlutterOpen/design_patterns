@@ -16,6 +16,7 @@ import 'package:flutter_design/page/midd/mid_page.dart';
 import 'package:flutter_design/page/observer/observer_page.dart';
 import 'package:flutter_design/page/proxy/proxy_page.dart';
 import 'package:flutter_design/page/state/state_page.dart';
+import 'package:flutter_design/page/strategy/strategy_page.dart';
 
 import 'constant/page_const.dart';
 import 'constant/string_const.dart';
@@ -55,6 +56,7 @@ class MyApp extends StatelessWidget {
         PageConst.MEMENTO_PAGE: (context) => MemoryPage(),
         PageConst.OBSERVER_PAGE: (context) => ObserverPage(),
         PageConst.STATE_PAGE: (context) => StatePage(),
+        PageConst.STRATEGY_PAGE: (context) => StrategyPage(),
       },
     );
   }
