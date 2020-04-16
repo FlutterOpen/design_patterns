@@ -67,4 +67,7 @@ class StringConst {
 
   //策略模式
   static const String STRATEGY_ = "策略模式";
+
+  //模版模式
+  static const String TEMPLATE_ = "模版模式";
 }

@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_design/page/strategy/strategy_mode.dart';
 
@@ -83,6 +84,11 @@ class _StrategyPageState extends State<StrategyPage> {
               onPressed: () {
                 _context.move = ByBus();
                 _context.run();
+                print("${Container(
+                  child: Text("Hello world"),
+                ).toStringDeep()}");
+                ObserverList list = ObserverList();
+                list.add("Hello world");
               },
             ),
           ],
